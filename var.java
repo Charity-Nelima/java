@@ -29,3 +29,21 @@ if (x > 5) {
 } else {
     System.out.println("x is not greater than 5");
 }
+
+
+// for, while, do while
+for (int i = 0; i < 5; i++) {
+    System.out.println("Iteration " + i);
+}
+
+int count = 0;
+while (count < 3) {
+    System.out.println("Count: " + count);
+    count++;
+}
+
+int num = 5;
+do {
+    System.out.println("Num: " + num);
+    num--;
+} while (num > 0);
