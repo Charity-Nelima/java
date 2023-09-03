@@ -20,3 +20,12 @@ int remainder = a % b; // Modulus (remainder)
 
 boolean isGreater = a > b; // Comparison (greater than)
 boolean isEqual = a == b;  // Comparison (equal to)
+
+// constructors
+// if else
+int x = 10;
+if (x > 5) {
+    System.out.println("x is greater than 5");
+} else {
+    System.out.println("x is not greater than 5");
+}
